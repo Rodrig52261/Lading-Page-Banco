@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: "Ubuntu", system-ui;
+    scroll-behavior: smooth;
+}
+
+.container{
+    height: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    width: 25%;
+    padding: 20px 0;
+}
+
+.logo img{
+   max-width: 70px;
+   border-radius: 50%;
+   padding: 20px 0;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu, .menu-secundario, nav{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu, .menu-secundario, a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    transition: linear .2s;
+}
+
+.menu-secundario img{
+    max-width: 20px;
+    position: absolute;
+    padding: 5px 0;
+}
+
+.menu-secundario a:hover{
+    color: rgb(0, 119, 139);
+}
+
+.section-principal{
+    background: rgba(0, 0, 0, 0.3) url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 50vw;
+}
+
+.section-principal h1{
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(0, 119, 139);
+}
+
+.section-principal span{
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(0, 119, 139);
+}
+
+.section-principal button{
+    width: 250px;
+    height: 3.5rem;
+    border: 1px solid black;
+    border: transparent;
+    border-radius: 50px;
+    background-color: #0091aa;
+}
+
+.section-principal button a{
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.section-conteudo{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+
+/* SESSÃO CARTÃO ANUNCIO */ /* SESSÃO CARTÃO ANUNCIO */
+/* SESSÃO CARTÃO ANUNCIO */ /* SESSÃO CARTÃO ANUNCIO */
+
+.area-anuncia-cartao{
+    background: rgb(2, 155, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.area-anuncia-cartao h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+/* SESSÃO BENEFICIOS */ /* SESSÃO BENEFICIOS */
+/* SESSÃO BENEFICIOS */ /* SESSÃO BENEFICIOS */
+
+.conteudo-main{
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-beneficios{
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+}
+
+.texto-beneficios span{
+    font-size: 25px;
+    text-decoration: currentColor;
+}
+
+/* FOOTER FOOTER */
+
+.conteudo-footer{
+    background: rgb(2, 155, 142);
+    padding-top: 3rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.titulo-footer{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.texto-quem-somos{
+    max-width: 50%;
+    margin: auto 0;
+    padding: 20px;
+    text-align: justify;
+}
+
+.texto-quem-somos span{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.icons-quem-somos{
+    display: flex;
+    margin: auto 0;
+    padding: 20px;
+}
+
+.icons-quem-somos img{
+    max-width: 70px;
+    margin: 20px;
+    cursor: pointer;
+}
